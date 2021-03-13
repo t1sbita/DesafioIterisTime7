@@ -1,13 +1,14 @@
 <template>
   <v-app>
     <AppTopBar/>
-    <NossoRodape/>
     <v-main>
+        <router-view/>
+        <NossoRodape/>
     </v-main>
   </v-app>
 </template>
 
-<style lang="scss">
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

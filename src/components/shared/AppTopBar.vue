@@ -24,7 +24,7 @@
         >
             <v-list-item-group
             v-model="group"
-            active-class="green--text text--accent-4"
+            active-class="brown darken-1 text--accent-4"
             >
 
             <router-link to="/">
@@ -36,7 +36,7 @@
                 </v-list-item>
             </router-link>
 
-            <router-link to="/classificacao">
+            <router-link to="/listaVendedores">
                 <v-list-item>
                     <v-list-item-icon>
                         <v-icon>mdi-format-list-bulleted</v-icon>

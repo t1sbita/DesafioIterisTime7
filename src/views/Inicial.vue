@@ -1,6 +1,12 @@
 <template>
-  <div class="Inicial brown lighten-4">
+  <div class="Inicial">
     <Carrossel/>
+    <h2>
+      Quem resiste a um delicioso Ovo de Páscoa?!
+    </h2>
+    <h3>
+      Difícil, não é mesmo?! E que tal encontrar Ovos únicos de Sabores Especiais, feitos com Amor e Carinho?!
+    </h3>
     <p class="text-center ma-5">
       Esta é uma aplicação para pesquisa de fornecedores de ovos de páscoa, sabemos que a Páscoa está chegando,
       e com isso, a procura por ovos de chocolate cresce, porém com a pandemia, não dá para ficarmos procurando,
@@ -8,9 +14,10 @@
       forma organizada, quais as empresas que estão produzindo, qual o preço, e os sabores disponíveis, enfim, 
       tudo o que você precisa para escolher o ovo ideal para sua páscoa.
     </p>
-
+    <p>
+      Acesse nosso catálogo e confira nossos sabores.
+    </p>
     <router-link to="listaVendedores"><div class="btn">CONHEÇA NOSSOS SABORES</div></router-link>
-   
   </div>
 </template>
 
@@ -50,6 +57,7 @@ export default {
     font-size: 16px;
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-bottom:30px;
   }
   
 </style>

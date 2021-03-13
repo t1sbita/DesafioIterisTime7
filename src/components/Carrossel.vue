@@ -9,7 +9,7 @@
         >
 
             <v-container fill-height class="d-flex justify-center align-center">
-              <h3 class="display-1">Seja Bem-Vindo!</h3>
+              <h3 class="display-1">Experimente Nossos Sabores</h3>
             </v-container>
     </v-carousel-item>
   </v-carousel>

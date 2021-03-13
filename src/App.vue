@@ -1,16 +1,15 @@
 <template>
   <v-app>
     <AppTopBar/>
+    
     <v-main>
-        <router-link to="/">Inicial</router-link>
-        <router-link to="/about">About</router-link>
         <router-view/>
         <NossoRodape/>
     </v-main>
   </v-app>
 </template>
 
-<style lang="scss">
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -7,7 +7,7 @@
             <v-text-field
             v-model="search"
             append-icon="mdi-magnify"
-            label="Search"
+            label="Procure aqui"
             single-line
             hide-details
             ></v-text-field>

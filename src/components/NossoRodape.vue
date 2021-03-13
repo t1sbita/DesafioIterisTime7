@@ -1,6 +1,6 @@
 <template>
   <v-footer
-    color="dark"
+    color="#5D4037"
     padless
   >
     <v-row
@@ -18,7 +18,7 @@
         {{ link }}
       </v-btn>
       <v-col
-        class="primary lighten-2 py-4 text-center white--text"
+        class="text-center white--text"
         cols="12"
       >
         {{ new Date().getFullYear() }} © <strong>Desafio Iteris Grupo 07</strong>

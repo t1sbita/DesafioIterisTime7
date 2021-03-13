@@ -1,24 +1,19 @@
 <template>
-  <div class="Inicial">
+  <div class="SobreNos">
     <h2>
       Tecnologia que movimenta negócios...
     </h2>
     <p>
       Somos uma empresa jovem e descontraída. Queremos ajudar pequenos negócios locais por meio da tecnologia.
     </p>
-    <v-btn 
-      elevation="13"
-      large
-    >Faça sua pesquisa!</v-btn>
+    <h3>
+    </h3>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
-  name: 'Inicial',
-  
+  name: 'SobreNos',
 }
 </script>
 

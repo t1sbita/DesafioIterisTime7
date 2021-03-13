@@ -1,11 +1,8 @@
 <template>
   <v-app>
     <AppTopBar/>
+    <NossoRodape/>
     <v-main>
-        <router-link to="/">Inicial</router-link>
-        <router-link to="/about">About</router-link>
-        <router-view/>
-        <NossoRodape/>
     </v-main>
   </v-app>
 </template>

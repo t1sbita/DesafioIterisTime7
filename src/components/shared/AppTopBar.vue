@@ -9,7 +9,7 @@
 
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-        <v-toolbar-title>Nome da Aplicação</v-toolbar-title>
+        <v-toolbar-title>Rota do Coelho</v-toolbar-title>
 
         </v-app-bar>  
         
@@ -54,7 +54,7 @@
                 </v-list-item>
             </a>
 
-            <router-link to="/about">
+            <router-link to="/SobreNos">
                 <v-list-item>
                     <v-list-item-icon>
                         <v-icon>mdi-account</v-icon>

@@ -1,6 +1,6 @@
 <template>
   <v-container>
-      <h2 class="text-center mb-7 mt-2">Lista de Vendedores</h2>
+      <h2 class="text-center mb-7 mt-2">Lista de Fornecedores</h2>
 
     <v-card>
         <v-card-title>
@@ -18,14 +18,27 @@
             :search="search"
         >
             <template v-slot:[`item.imagem`]='item'>
-                <a :href="item.item.imagem">
-                    <v-avatar size= "35">
-                        <img
+                <v-dialog v-model="dialog" width="500">
+                    <template v-slot:activator="{ on, attrs }">
+                        <v-avatar size= "50">
+                            <v-img
+                                v-bind="attrs"
+                                v-on="on"
+                                :src="item.item.imagem"
+                                :alt="item.item.nome"
+                            >
+                            </v-img>
+                        </v-avatar>
+                    </template>
+
+                    <v-card>
+                        <v-img 
                             :src="item.item.imagem"
                             :alt="item.item.nome"
                         >
-                    </v-avatar>
-                </a>
+                        </v-img>
+                    </v-card>
+                </v-dialog>
             </template>
         </v-data-table>
   </v-card>
@@ -45,7 +58,7 @@ export default {
                 align: 'start',
                 value: 'nome',
             },
-            { text: 'Imagem Produto', value: 'imagem', filterable: false },
+            { text: 'Imagem do produto', value: 'imagem', filterable: false },
             { text: 'Sabor', value: 'sabor' },
             { text: 'Preço', value: 'preco' },
             { text: 'Fornecedor', value: 'local.nome' },

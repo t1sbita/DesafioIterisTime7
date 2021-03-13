@@ -9,7 +9,7 @@
 
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-        <v-toolbar-title>Rota do Coelho</v-toolbar-title>
+        <v-toolbar-title><v-icon>mdi-egg-easter</v-icon> Rota do Coelho</v-toolbar-title>
 
         </v-app-bar>  
         
@@ -41,7 +41,7 @@
                     <v-list-item-icon>
                         <v-icon>mdi-format-list-bulleted</v-icon>
                     </v-list-item-icon>
-                    <v-list-item-title>Vendedores</v-list-item-title>
+                    <v-list-item-title>Fornecedores</v-list-item-title>
                 </v-list-item>
             </router-link>
 

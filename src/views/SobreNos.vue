@@ -32,7 +32,7 @@
     <p>
       Olá! Meu nome é Ligia, tenho 8 filhos de 4 patas, que são os amores da minha vida. Sou nerd assumida e amo praia. Estou sempre estudando e em busca de novas aventuras.
     </p>
-    <router-link to="listaVendedores"><div class="btn">CONHEÇA NOSSOS SABORES</div></router-link>
+    
     
    
     

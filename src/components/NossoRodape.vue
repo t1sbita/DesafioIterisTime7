@@ -8,7 +8,7 @@
       no-gutters
     >
       <v-col
-        class="#5D4037 py-4 text-center white--text"
+        class="text-center white--text"
         cols="12"
       >
         {{ new Date().getFullYear() }} © <strong>Desafio Iteris Grupo 07</strong>

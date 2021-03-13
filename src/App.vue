@@ -1,7 +1,6 @@
 <template>
   <v-app>
     <AppTopBar/>
-    
     <v-main>
         <router-view/>
         <NossoRodape/>

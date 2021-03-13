@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <AppTopBar/>
     <v-main>
         <router-link to="/">Inicial</router-link>
         <router-link to="/about">About</router-link>
@@ -9,16 +10,6 @@
   </v-app>
 </template>
 
-<script>
-import NossoRodape from './components/NossoRodape.vue'
-export default {
-  name: 'App',
-  components: {
-    NossoRodape,
-  }
-}
-</script>
-
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -27,17 +18,17 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+</style>
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+import NossoRodape from './components/NossoRodape.vue'
+import AppTopBar from './components/shared/AppTopBar'
+export default {
+  name: 'App',
+  components: {
+    AppTopBar,
+    NossoRodape,
   }
 }
-</style>
+</script>
+

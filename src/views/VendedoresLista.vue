@@ -18,14 +18,27 @@
             :search="search"
         >
             <template v-slot:[`item.imagem`]='item'>
-                <a :href="item.item.imagem">
-                    <v-avatar size= "35">
-                        <img
+                <v-dialog v-model="dialog" width="500">
+                    <template v-slot:activator="{ on, attrs }">
+                    <v-avatar size= "50">
+                        <v-img
+                            v-bind="attrs"
+                            v-on="on"
                             :src="item.item.imagem"
                             :alt="item.item.nome"
                         >
+                        </v-img>
                     </v-avatar>
-                </a>
+                    </template>
+
+                    <v-card>
+                        <v-img 
+                            :src="item.item.imagem"
+                            :alt="item.item.nome"
+                        >
+                        </v-img>
+                    </v-card>
+                </v-dialog>
             </template>
         </v-data-table>
   </v-card>

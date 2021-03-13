@@ -8,7 +8,7 @@ Pensando nisso, criamos esta aplicação, que te mostra, de forma organizada, qu
 * Pesquisa rápida por qualquer um dos parâmetros (nome do produto, sabor, nome do fornecedor e preço)
 <br></br>
 
-Passo a passo para utilizar
+# Passo a passo para utilizar
 ### Instalar componentes necessários
 ```
 npm install

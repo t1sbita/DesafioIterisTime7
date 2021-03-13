@@ -18,7 +18,7 @@
             :search="search"
         >
             <template v-slot:[`item.imagem`]='item'>
-                <v-dialog v-model="dialog" width="500">
+                <v-dialog width="500">
                     <template v-slot:activator="{ on, attrs }">
                         <v-avatar size= "50">
                             <v-img

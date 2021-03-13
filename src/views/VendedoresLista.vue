@@ -1,6 +1,6 @@
 <template>
   <v-container>
-      <h2 class="text-center mb-7 mt-2">Lista de Vendedores</h2>
+      <h2 class="text-center mb-7 mt-2">Lista de Fornecedores</h2>
 
     <v-card>
         <v-card-title>

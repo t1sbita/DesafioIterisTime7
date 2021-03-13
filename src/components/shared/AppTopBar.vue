@@ -54,7 +54,7 @@
                 </v-list-item>
             </a>
 
-            <router-link to="/about">
+            <router-link to="/SobreNos">
                 <v-list-item>
                     <v-list-item-icon>
                         <v-icon>mdi-account</v-icon>

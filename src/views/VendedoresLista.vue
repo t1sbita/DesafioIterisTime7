@@ -20,15 +20,15 @@
             <template v-slot:[`item.imagem`]='item'>
                 <v-dialog v-model="dialog" width="500">
                     <template v-slot:activator="{ on, attrs }">
-                    <v-avatar size= "50">
-                        <v-img
-                            v-bind="attrs"
-                            v-on="on"
-                            :src="item.item.imagem"
-                            :alt="item.item.nome"
-                        >
-                        </v-img>
-                    </v-avatar>
+                        <v-avatar size= "50">
+                            <v-img
+                                v-bind="attrs"
+                                v-on="on"
+                                :src="item.item.imagem"
+                                :alt="item.item.nome"
+                            >
+                            </v-img>
+                        </v-avatar>
                     </template>
 
                     <v-card>
@@ -58,7 +58,7 @@ export default {
                 align: 'start',
                 value: 'nome',
             },
-            { text: 'Imagem Produto', value: 'imagem', filterable: false },
+            { text: 'Imagem do produto', value: 'imagem', filterable: false },
             { text: 'Sabor', value: 'sabor' },
             { text: 'Preço', value: 'preco' },
             { text: 'Fornecedor', value: 'local.nome' },

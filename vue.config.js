@@ -7,7 +7,7 @@ module.exports = {
       // entry for the page
       entry: 'src/main.js',
       
-      title: 'Chocolate'
+      title: 'Rota do Coelho'
     }
   }
 }

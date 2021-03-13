@@ -48,7 +48,7 @@ export default {
             { text: 'Imagem Produto', value: 'imagem', filterable: false },
             { text: 'Sabor', value: 'sabor' },
             { text: 'Preço', value: 'preco' },
-            { text: 'Localização', value: 'local.nome' },
+            { text: 'Fornecedor', value: 'local.nome' },
             ],
             listaVendedores: [],
         }
